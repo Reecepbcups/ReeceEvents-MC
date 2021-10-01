@@ -1,0 +1,56 @@
+
+public class FutureThings {
+
+// Idea
+//	@EventHandler
+//	  public void onJoin(final PlayerLoginEvent e) {
+//	    Bukkit.getScheduler().scheduleSyncRepeatingTask((Plugin)EventCore.plugin, new Runnable() {
+//	          public void run() {
+//	            if (Main.eventManager.isRunning()) {
+//	              if (Main.eventManager.isAlive(e.getPlayer().getUniqueId())) {
+//	                ActionbarAPI.sendActionbar(e.getPlayer(), ChatColor.translateAlternateColorCodes('&', "&bAlive: &a&l));
+//	              } else {
+//	                ActionbarAPI.sendActionbar(e.getPlayer(), ChatColor.translateAlternateColorCodes('&', "&bAlive: &c&l));
+//	              } 
+//	            } else {
+//	              ActionbarAPI.sendActionbar(e.getPlayer(), ChatColor.translateAlternateColorCodes('&', "&bAlive: &8&l???"));
+//	            } 
+//	          }
+//	        }20L, 0L);
+//	  }
+	
+//	public class ForceRespawn implements CommandExecutor {
+//		  public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+//		    if (sender instanceof Player) {
+//		      Player player = (Player)sender;
+//		      if (player.hasPermission("mal.fr"))
+//		        if (args.length == 0) {
+//		          player.sendMessage(ChatUtil.clr("&cUsage: /forcerespawn <player>"));
+//		        } else if (Bukkit.getPlayer(args[0]) == null) {
+//		          player.sendMessage(ChatUtil.clr("&cThe player &e" + args[0] + " &cisn't online!"));
+//		        } else {
+//		          Player target = Bukkit.getPlayer(args[0]);
+//		          if (target.isDead()) {
+//		            target.spigot().respawn();
+//		            player.sendMessage(ChatUtil.clr("&cRespawned &e" + args[0]));
+//		          } else {
+//		            player.sendMessage(ChatUtil.clr("&cThe player &e" + args[0] + " &cis already alive!"));
+//		          } 
+//		        }  
+//		    } else if (Bukkit.getPlayer(args[0]) == null) {
+//		      Bukkit.getConsoleSender().sendMessage(ChatUtil.clr("&cThe player &e" + args[0] + " &cisn't online!"));
+//		    } else {
+//		      Player target = Bukkit.getPlayer(args[0]);
+//		      if (target.isDead()) {
+//		        target.spigot().respawn();
+//		        Bukkit.getConsoleSender().sendMessage(ChatUtil.clr("&cRespawned &e" + args[0]));
+//		      } else {
+//		        Bukkit.getConsoleSender().sendMessage(ChatUtil.clr("&cThe player &e" + args[0] + " &cis already alive!"));
+//		      } 
+//		    } 
+//		    return false;
+//		  }
+//		}
+	
+	
+}

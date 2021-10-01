@@ -1,0 +1,6 @@
+permission: events.manage
+prefix: '&6&lEvents &7»'
+primarycolor: '&6'
+secondarycolor: '&f'
+jail: world, 100.0, 75, -100.0
+addPlayersAfterStart: false

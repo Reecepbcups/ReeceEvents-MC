@@ -1,0 +1,11 @@
+name: "Events"
+main: "sh.reece.events.EventsPlugin"
+version: "2.3.0"
+api-version: "1.16"
+author: "Reecepbcups"
+softdepend: ["PlaceholderAPI"]
+commands:
+  event:
+    description: "Main Command for Event Management"
+#  revive:
+#    description: "Command to revive someone back into the Event."
